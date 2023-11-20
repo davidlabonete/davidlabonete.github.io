@@ -1,0 +1,18 @@
+
+/* fonts */
+@import "fonts.css";
+
+/* hero banner */
+@import "hero-banner.css";
+
+/* skills */
+@import "skills.css";
+
+/* workss */
+@import "works.css";
+
+/* contact me */
+@import "contact-me.css";
+
+/* common */
+@import "common.css";

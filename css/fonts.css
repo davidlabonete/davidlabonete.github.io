@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
+
+/* Using the fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 18px;
+}
+
+/* Assign font to headings & paragraphs */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 62px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 22px;
+}
+
+@media screen and (min-width: 959) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+    
+    h2 {
+        font-size: 26px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+    
+    h5 {
+        font-size: 16px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+}

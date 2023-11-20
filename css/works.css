@@ -1,0 +1,17 @@
+.my-works .uk-grid > div a {
+    display: block;
+    padding-top: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+
+.my-works .uk-grid > div a img {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 80%;
+    height: 80px;
+    left: 0;
+    right: 0;
+}

@@ -1,0 +1,19 @@
+.hero-banner .uk-container {
+    width: 1200px;
+}
+
+.hero-banner .img {
+    background-repeat: no-repeat;
+    background-position: top 15% center;
+    background-size: 120%;
+    padding-top: 80%;
+    border-radius: 20px;
+    /* -webkit-clip-path: polygon(25% 0%,100% 0%,75% 100%,0% 100%);
+    clip-path: polygon(25% 0%,100% 0%,75% 100%,0% 100%); */
+}
+
+@media screen and (min-width: 959px) {
+    .hero-banner {
+        height: 100vh;
+    }
+}
