@@ -1,6 +1,20 @@
 .contact-me .uk-container > div {
-    background: #dadada;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    background: #e9f8ff;
+    padding: 140px 0;
     border-radius: 20px;
+}
+
+.contact-me h3 a {
+    color: inherit;
+}
+
+.contact-me h3::before {
+    content: '';
+    background: url(https://cdn-icons-png.flaticon.com/512/732/732200.png) no-repeat center;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 20px;
 }

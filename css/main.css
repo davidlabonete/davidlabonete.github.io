@@ -2,6 +2,12 @@
 /* fonts */
 @import "fonts.css";
 
+/* animation */
+@import "animations.css";
+
+/* header */
+@import "header.css";
+
 /* hero banner */
 @import "hero-banner.css";
 

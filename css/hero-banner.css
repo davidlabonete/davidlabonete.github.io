@@ -1,5 +1,23 @@
+.hero-banner {
+    position: relative;
+    padding-top: 140px;
+}
+
+/* .hero-banner::after {
+    content: '';
+    position: absolute;
+    background-color: #d9f4ff;
+    right: 0;
+    top: 10%;
+    width: 65%;
+    height: 450px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+} */
+
 .hero-banner .uk-container {
     width: 1200px;
+    z-index: 1;
 }
 
 .hero-banner .img {
@@ -8,12 +26,10 @@
     background-size: 120%;
     padding-top: 80%;
     border-radius: 20px;
-    /* -webkit-clip-path: polygon(25% 0%,100% 0%,75% 100%,0% 100%);
-    clip-path: polygon(25% 0%,100% 0%,75% 100%,0% 100%); */
 }
 
-@media screen and (min-width: 959px) {
+@media screen and (max-width: 1200px) {
     .hero-banner {
-        height: 100vh;
+        padding-top: 40px;
     }
 }

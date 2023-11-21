@@ -29,6 +29,16 @@ h2 {
     font-size: 36px;
 }
 
+h2::after {
+    content: '';
+    background-color: #33a1cd;
+    width: 100px;
+    height: 10px;
+    display: block;
+    border-radius: 10px;
+    margin: 30px auto 0;
+}
+
 h3 {
     font-size: 26px;
 }
@@ -41,32 +51,36 @@ h5 {
     font-size: 22px;
 }
 
-@media screen and (min-width: 959) {
+@media screen and (max-width: 960px) {
     body {
         font-size: 16px;
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 42px;
     }
     
     h2 {
-        font-size: 26px;
+        font-size: 28px;
     }
     
     h3 {
-        font-size: 18px;
+        font-size: 22px;
     }
     
     h4 {
-        font-size: 18px;
+        font-size: 20px;
     }
     
     h5 {
-        font-size: 16px;
+        font-size: 18px;
     }
     
     p {
         font-size: 16px;
     }
+}
+
+.text-blue {
+    color: #33a1cd;
 }

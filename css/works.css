@@ -1,8 +1,30 @@
+.my-works {
+    background-color: #fff5f6;
+}
+
 .my-works .uk-grid > div a {
     display: block;
     padding-top: 100%;
     position: relative;
     border-radius: 20px;
+    overflow: hidden;
+}
+
+.my-works .uk-grid > div a:before {
+    content: '';
+    position: absolute;
+    background-color: rgb(51,161,205,0.8);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.my-works .uk-grid > div a:hover:before {
+    opacity: 1;
 }
 
 .my-works .uk-grid > div a img {
@@ -14,4 +36,34 @@
     height: 80px;
     left: 0;
     right: 0;
+}
+
+.my-works .uk-grid > div a p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 10%;
+    margin-top: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.my-works .uk-grid > div a p:before {
+    content: '';
+    display: block;
+    background: url(../img/icon-open-link.svg) no-repeat center;
+    width: 22px;
+    height: 22px;
+    margin-right: 15px;
+}
+
+.my-works .uk-grid > div a:hover p {
+    top: 0;
+    opacity: 1;
 }
