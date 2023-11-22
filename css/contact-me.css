@@ -1,6 +1,6 @@
 .contact-me .uk-container > div {
     background: #e9f8ff;
-    padding: 140px 0;
+    padding: 140px 50px;
     border-radius: 20px;
 }
 
@@ -17,4 +17,10 @@
     background-size: contain;
     vertical-align: middle;
     margin-right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-me .uk-container > div {
+        padding: 70px 25px;
+    }
 }

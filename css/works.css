@@ -67,3 +67,9 @@
     top: 0;
     opacity: 1;
 }
+
+@media screen and (max-width: 960px) {
+    .my-works .uk-grid > div a img {
+        height: auto;
+    }
+}
