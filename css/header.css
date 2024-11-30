@@ -1,5 +1,5 @@
 #sticky-header {
-    background: #fff;
+    background-color: #fff;
     position: fixed;
     width: 100%;
     box-sizing: border-box;
@@ -10,8 +10,16 @@
     display: none;
 }
 
+header {
+    background-color: #fff;
+}
+
+/* #sticky-header.fadeInDown {
+    z-index: 20;
+} */
+
 #sticky-header nav {
-    background: #fff !important;
+    background: transparent !important;
 }
 
 .uk-navbar-nav>li>a {
@@ -23,4 +31,17 @@
 
 .uk-navbar-nav>li>a:hover {
     color: #33a1cd;
+}
+
+#main-header {
+    position: relative;
+    z-index: 10;
+}
+
+.header-logo a {
+    color: #000;
+}
+
+.header-logo a:hover {
+    text-decoration: none;
 }

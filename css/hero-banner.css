@@ -1,6 +1,9 @@
 .hero-banner {
     position: relative;
-    padding-top: 140px;
+    /* padding-top: 140px; */
+    height: calc(100vh - 80px);
+    background-color: #fff;
+    min-height: 600px;
 }
 
 /* .hero-banner::after {

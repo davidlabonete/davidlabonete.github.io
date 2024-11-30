@@ -6,7 +6,6 @@
     display: block;
     padding-top: 100%;
     position: relative;
-    border-radius: 20px;
     overflow: hidden;
 }
 
@@ -33,7 +32,8 @@
     top: 50%;
     transform: translateY(-50%);
     max-width: 80%;
-    height: 80px;
+    height: auto;
+    max-height: 100px;
     left: 0;
     right: 0;
 }
